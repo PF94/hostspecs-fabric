@@ -3,8 +3,8 @@
   "id": "hostspecs",
   "version": "${version}",
 
-  "name": "Server Host Information Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "hostSpecs",
+  "description": "Server Host Information Mod",
   "authors": [
     "ChazizGRKB"
   ],

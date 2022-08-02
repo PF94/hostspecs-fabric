@@ -19,10 +19,10 @@ public class HostSpecs implements ModInitializer {
 		// Proceed with mild caution.
 		CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
 			if (dedicated) {
-				LOGGER.info("Add-on is ran on server, registering commands.");
+				LOGGER.info("[HostSpecs] Add-on is ran on server, registering commands.");
 				HostCommands.register(dispatcher);
 			} else {
-				LOGGER.error("Add-on is ran on client, doing nothing.");
+				LOGGER.warn("[HostSpecs] Add-on is ran on client, doing nothing.");
 			}
 		});
 	}
